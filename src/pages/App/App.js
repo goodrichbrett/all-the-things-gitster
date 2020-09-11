@@ -150,6 +150,7 @@ class App extends Component {
 							{/* All the <a> tags should live here */}
 							<h2>All-The-Things</h2>
 							<a href="/themanliestthings">Ben's Things</a>
+							<a href="/davidsthings">David's Things</a>
 						</>
 					)}
 				/>
@@ -157,6 +158,12 @@ class App extends Component {
 				<Route
 					exact
 					path="/themanliestthings"
+					render={() => (
+						<BensThings bensThings={this.state.bensThings} />
+					)}
+				/>
+				<Route
+					exact path="/davidsthings"
 					render={() => (
 						<BensThings bensThings={this.state.bensThings} />
 					)}
