@@ -4,6 +4,7 @@ import './App.css';
 import BensThings from '../BensThings/BensThings';
 import BrettsThings from '../BrettsThings/BrettsThings';
 import DavidsThings from '../../pages/DavidsThings/DavidsThings'
+import ShahzadsThings from '../ShahzadsThings/ShahzadsThings';
 
 class App extends Component {
 	state = {
@@ -154,6 +155,8 @@ class App extends Component {
 							<h2>All-The-Things</h2>
 							<a href="/themanliestthings">Ben's Things</a>
 							<a href="/davidsthings">David's Things</a>
+							<br />
+							<a href="/brettsthings">Brett's Things</a>
 						</>
 					)}
 				/>
