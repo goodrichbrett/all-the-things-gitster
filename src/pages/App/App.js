@@ -161,6 +161,20 @@ class App extends Component {
 						<BensThings bensThings={this.state.bensThings} />
 					)}
 				/>
+        <Route
+					exact
+					path="/shahzadsthings"
+					render={() => (
+						<ShahzadsThings shahzadsThings={this.state.shahzadsThings} />
+					)}
+				/>
+        <Route
+					exact
+					path="/bensthings"
+					render={() => (
+						<DavidsThings davidsThings={this.state.davidsThings} />
+					)}
+				/>
 			</>
 		);
 	}
