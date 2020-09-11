@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import './App.css';
 import BensThings from '../BensThings/BensThings';
 import BrettsThings from '../BrettsThings/BrettsThings';
-import ShahzadsThings from '../ShahzadsThings/ShahzadsThings'
+import ShahzadsThings from '../ShahzadsThings/ShahzadsThings';
 
 class App extends Component {
 	state = {
@@ -153,6 +153,8 @@ class App extends Component {
 							{/* All the <a> tags should live here */}
 							<h2>All-The-Things</h2>
 							<a href="/themanliestthings">Ben's Things</a>
+							<br />
+							<a href="/brettsthings">Brett's Things</a>
 						</>
 					)}
 				/>

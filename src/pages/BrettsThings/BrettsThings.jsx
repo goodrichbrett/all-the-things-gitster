@@ -1,5 +1,5 @@
 import React from 'react';
-import BrettThing from '../../components/BrettThing';
+import BrettThing from '../../components/BrettThing/BrettThing';
 
 const BrettsThings = (props) => {
 	return (

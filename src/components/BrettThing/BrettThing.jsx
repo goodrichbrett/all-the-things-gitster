@@ -6,9 +6,7 @@ const BrettThing = (props) => {
 			<div class="card" style={{ width: '18rem' }}>
 				<div class="card-body">
 					<h5 class="card-title">{props.thing.name}</h5>
-					{props.thing.attributes.map((attribute) => (
-						<p class="card-text">{attribute}</p>
-					))}
+					<p class="card-text">{props.thing.attribute}</p>
 					<a href="/" class="btn btn-primary">
 						Go Back
 					</a>
