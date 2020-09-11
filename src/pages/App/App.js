@@ -158,6 +158,8 @@ class App extends Component {
 							<a href="/davidsthings">David's Things</a>
 							<br />
 							<a href="/brettsthings">Brett's Things</a>
+							<br />
+							<a href="/shahzadsthings">Shahzad's Things</a>
 						</>
 					)}
 				/>
