@@ -1,12 +1,12 @@
 import React from 'react';
-import BenThing from '../../components/BenThing/BenThing'
+import ShahzadsThing from '../../components/BenThing/BenThing'
 
-const BensThings = (props) => {
+const ShahzadsThings = (props) => {
   return ( 
     <>
-      <h1>Ben's Things</h1>
+      <h1>Shahzad's Things</h1>
       {props.bensThings.map((thing, idx) => 
-        <BenThing 
+        <ShahzadsThing 
           key={idx}
           thing={thing}
         />
@@ -16,4 +16,4 @@ const BensThings = (props) => {
    );
 }
  
-export default BensThings;
+export default ShahzadsThings;
