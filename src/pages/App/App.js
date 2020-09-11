@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-import BensThings from '../BensThings/BensThings';
+import BensThings from '../PersonsThings/PersonsThings';
 import BrettsThings from '../BrettsThings/BrettsThings';
 import DavidsThings from '../../pages/DavidsThings/DavidsThings';
 import ShahzadsThings from '../ShahzadsThings/ShahzadsThings';
