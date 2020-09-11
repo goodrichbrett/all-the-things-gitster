@@ -1,0 +1,21 @@
+import React from 'react';
+
+const BrettThing = (props) => {
+	return (
+		<>
+			<div class="card" style={{ width: '18rem' }}>
+				<div class="card-body">
+					<h5 class="card-title">{props.thing.name}</h5>
+					{props.thing.attributes.map((attribute) => (
+						<p class="card-text">{attribute}</p>
+					))}
+					<a href="/" class="btn btn-primary">
+						Go Back
+					</a>
+				</div>
+			</div>
+		</>
+	);
+};
+
+export default BrettThing;
