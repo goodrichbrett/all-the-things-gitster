@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-import BensThings from '../PersonsThings/PersonsThings';
-import BrettsThings from '../BrettsThings/BrettsThings';
-import DavidsThings from '../../pages/DavidsThings/DavidsThings';
-import ShahzadsThings from '../ShahzadsThings/ShahzadsThings';
+import PersonsThings from '../PersonsThings/PersonsThings'
 
 class App extends Component {
 	state = {
@@ -169,15 +166,14 @@ class App extends Component {
 					exact
 					path="/themanliestthings"
 					render={() => (
-						<BensThings bensThings={this.state.bensThings} />
+						<PersonsThings things={this.state.bensThings} name="Ben" />
 					)}
 				/>
 				<Route
 					exact
 					path="/shahzadsthings"
 					render={() => (
-						<ShahzadsThings
-							shahzadsThings={this.state.shahzadsThings}
+						<PersonsThings things={this.state.shahzadsThings}  name="Shahzad"
 						/>
 					)}
 				/>
@@ -186,7 +182,7 @@ class App extends Component {
 					exact
 					path="/davidsthings"
 					render={() => (
-						<DavidsThings davidsThings={this.state.davidsThings} />
+						<PersonsThings things={this.state.davidsThings}  name="David" />
 					)}
 				/>
 
@@ -194,7 +190,7 @@ class App extends Component {
 					exact
 					path="/brettsthings"
 					render={() => (
-						<BrettsThings brettsThings={this.state.brettsThings} />
+						<PersonsThings things={this.state.brettsThings}  name="Brett"/>
 					)}
 				/>
 			</>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ShahzadsThing = (props) => {
+const PersonThing = (props) => {
   return ( 
     <>
       <div class="card" style={{width: "18rem"}}>
@@ -17,4 +17,4 @@ const ShahzadsThing = (props) => {
    );
 }
  
-export default ShahzadsThing;
+export default PersonThing;
