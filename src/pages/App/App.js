@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import './App.css';
 import BensThings from '../BensThings/BensThings';
 import BrettsThings from '../BrettsThings/BrettsThings';
-import DavidsThings from '../../pages/DavidsThings/DavidsThings'
+import DavidsThings from '../../pages/DavidsThings/DavidsThings';
 import ShahzadsThings from '../ShahzadsThings/ShahzadsThings';
 
 class App extends Component {
@@ -154,6 +154,7 @@ class App extends Component {
 							{/* All the <a> tags should live here */}
 							<h2>All-The-Things</h2>
 							<a href="/themanliestthings">Ben's Things</a>
+							<br />
 							<a href="/davidsthings">David's Things</a>
 							<br />
 							<a href="/brettsthings">Brett's Things</a>
