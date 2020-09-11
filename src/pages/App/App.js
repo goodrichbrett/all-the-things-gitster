@@ -166,14 +166,14 @@ class App extends Component {
 					exact
 					path="/themanliestthings"
 					render={() => (
-						<PersonsThings things={this.state.bensThings} />
+						<PersonsThings things={this.state.bensThings} name="Ben" />
 					)}
 				/>
 				<Route
 					exact
 					path="/shahzadsthings"
 					render={() => (
-						<PersonsThings things={this.state.shahzadsThings}
+						<PersonsThings things={this.state.shahzadsThings}  name="Shahzad"
 						/>
 					)}
 				/>
@@ -182,7 +182,7 @@ class App extends Component {
 					exact
 					path="/davidsthings"
 					render={() => (
-						<PersonsThings things={this.state.davidsThings} />
+						<PersonsThings things={this.state.davidsThings}  name="David" />
 					)}
 				/>
 
@@ -190,7 +190,7 @@ class App extends Component {
 					exact
 					path="/brettsthings"
 					render={() => (
-						<PersonsThings things={this.state.brettsThings} />
+						<PersonsThings things={this.state.brettsThings}  name="Brett"/>
 					)}
 				/>
 			</>
